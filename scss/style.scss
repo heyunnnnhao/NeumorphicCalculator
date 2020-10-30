@@ -5,8 +5,11 @@ body {
   -webkit-font-smoothing: antialiased;
   padding: 5vh 12vw;
   color: #121314;
-  .btn{
-    background: transparent;
+  button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    overflow: hidden;   
   }
   h1 {
     font-size: 4em;
@@ -18,6 +21,9 @@ body {
     font-weight: 300;
     line-height: 1.6;
     max-width: 26em;
+    .class{
+      display: inline-block;
+    }
     a {
       text-decoration: none;
       color: #121314;

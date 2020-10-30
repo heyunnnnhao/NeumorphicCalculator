@@ -6,6 +6,13 @@ body {
   color: #121314;
 }
 
+body button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+}
+
 body h1 {
   font-size: 4em;
   font-weight: 500;
@@ -17,6 +24,10 @@ body p {
   font-weight: 300;
   line-height: 1.6;
   max-width: 26em;
+}
+
+body p .class {
+  display: inline-block;
 }
 
 body p a {
