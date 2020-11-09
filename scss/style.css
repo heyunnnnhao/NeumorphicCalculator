@@ -15,10 +15,6 @@ body .info {
   display: none;
 }
 
-body .info:hover + .info {
-  display: block;
-}
-
 body h1 {
   font-size: 4em;
   font-weight: 500;
