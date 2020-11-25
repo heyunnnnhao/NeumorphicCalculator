@@ -5,7 +5,6 @@
 My name is [Yunhao He](null).
 
 WeChat: heyunnnnhao  
-Cell: 18761165537  
 Email: heyunhaotq\@outlook.com
 
 I am a student and I am learnig web programming by myself. You can find my naive projects on [GitHub](https://github.com/heyunnnnhao).
