@@ -7,6 +7,8 @@ window.onload = function () {
   };
 
   name.onmouseleave = function () {
-    info.classList.add('info');
+    setTimeout(function () {
+      info.classList.add('info');
+    }, 3000);
   };
 };
