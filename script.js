@@ -2,7 +2,7 @@ window.onload = function () {
   var name = document.getElementById('myname');
   var info = document.getElementById('info');
 
-  name.onmouseenter = function () {
+  name.onclick = function () {
     info.classList.remove('info');
   };
 

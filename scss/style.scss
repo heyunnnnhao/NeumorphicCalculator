@@ -12,7 +12,6 @@ body {
   .info {
     display: none;
   }
-  
   h1 {
     font-size: 4em;
     font-weight: 500;
@@ -28,6 +27,7 @@ body {
       display: inline-block;
     }
     a {
+      cursor: pointer;
       text-decoration: none;
       color: #121314;
       position: relative;

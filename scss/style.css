@@ -33,6 +33,7 @@ body p .class {
 }
 
 body p a {
+  cursor: pointer;
   text-decoration: none;
   color: #121314;
   position: relative;
