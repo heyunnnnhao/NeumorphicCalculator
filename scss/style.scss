@@ -13,9 +13,30 @@ body {
     display: none;
   }
   h1 {
-    font-size: 4em;
+    font-size: 4rem;
     font-weight: 500;
     margin-bottom: 0;
+  }
+  hr{
+    border: 0;
+    height: 1px;
+    margin: 3rem;
+    background-image: linear-gradient(
+      to right,
+      rgba(75, 109, 85, 0),
+      rgba(41, 56, 52, 0.2),
+      rgba(163, 45, 45, 0)
+    );
+  }
+  .navs{
+    cursor: pointer;
+    text-decoration: none;
+    color: #121314;
+    position: relative;
+    font-size: 1.5rem;
+  }
+  .sections{
+    font-weight: 400;
   }
   p {
     font-size: 1.6em;
