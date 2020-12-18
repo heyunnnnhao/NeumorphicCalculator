@@ -20,7 +20,7 @@ body {
     hr {
         border: 0;
         height: 1px;
-        margin: 3rem;
+        margin: 2rem;
         background-image: linear-gradient(
             to right,
             rgba(75, 109, 85, 0),
@@ -36,8 +36,9 @@ body {
         font-size: 1.5rem;
         padding: 1rem;
     }
-    .sections {
-        font-weight: 400;
+    .section-title {
+        font-weight: 600;
+        margin-top: 6rem;
     }
     p {
         font-size: 1.6em;

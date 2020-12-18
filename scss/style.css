@@ -24,7 +24,7 @@ body h4 {
 body hr {
   border: 0;
   height: 1px;
-  margin: 3rem;
+  margin: 2rem;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(75, 109, 85, 0)), color-stop(rgba(41, 56, 52, 0.2)), to(rgba(163, 45, 45, 0)));
   background-image: linear-gradient(to right, rgba(75, 109, 85, 0), rgba(41, 56, 52, 0.2), rgba(163, 45, 45, 0));
 }
@@ -38,8 +38,9 @@ body .navs {
   padding: 1rem;
 }
 
-body .sections {
-  font-weight: 400;
+body .section-title {
+  font-weight: 600;
+  margin-top: 6rem;
 }
 
 body p {
