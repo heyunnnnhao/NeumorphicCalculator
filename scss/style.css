@@ -15,7 +15,7 @@ body .info {
   display: none;
 }
 
-body h1 {
+body h4 {
   font-size: 4rem;
   font-weight: 500;
   margin-bottom: 0;
@@ -35,6 +35,7 @@ body .navs {
   color: #121314;
   position: relative;
   font-size: 1.5rem;
+  padding: 1rem;
 }
 
 body .sections {
