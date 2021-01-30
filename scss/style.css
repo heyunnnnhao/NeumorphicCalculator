@@ -38,17 +38,11 @@ body .navs {
   padding: 1rem;
 }
 
-body .collapsible {
-  font-weight: 600;
-  margin-top: 1rem;
-  font-size: 60px;
-}
-
 body p {
   font-size: 1.6em;
   font-weight: 300;
   line-height: 1.6;
-  max-width: 26em;
+  max-width: 40em;
 }
 
 body p .class {
@@ -79,20 +73,43 @@ body p a:hover:after {
   top: 0%;
 }
 
-body .collapsible {
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 30px;
-  font-weight: 100;
-  background-color: rgba(255, 255, 255, 0.596);
+body .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-body .content {
-  padding: 0 18px;
+body .info .collapsible {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 60px;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.596);
+  background-image: linear-gradient(120deg, rgba(79, 192, 141, 0.5) 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 95% 0.2em;
+  background-position: 0 88%;
+  -webkit-transition: background-size 0.25s ease-in;
+  transition: background-size 0.25s ease-in;
+}
+
+body .info .collapsible:hover {
+  background-size: 95% 70%;
+}
+
+body .info .content {
+  margin-bottom: 1rem;
   display: none;
   overflow: hidden;
   background-color: #fff;
