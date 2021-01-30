@@ -41,7 +41,7 @@ body {
     font-size: 1.6em;
     font-weight: 300;
     line-height: 1.6;
-    max-width: 40em;
+    max-width: 28em;
 
     .class {
       display: inline-block;
@@ -60,7 +60,7 @@ body {
       left: -0.1em;
       right: -0.1em;
       bottom: 0;
-      transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+      transition: top 0.2s cubic-bezier(0, 0.8, 0.13, 1);
       background-color: rgba(79, 192, 141, 0.5);
     }
     a:hover:after {
@@ -71,6 +71,12 @@ body {
   .info {
     display: flex;
     flex-direction: column;
+    p {
+      font-size: 1.6em;
+      font-weight: 300;
+      line-height: 1.6;
+      max-width: 40em;
+    }
     .collapsible {
       cursor: pointer;
       outline: none;
@@ -90,7 +96,7 @@ body {
       background-repeat: no-repeat;
       background-size: 95% 0.2em;
       background-position: 0 88%;
-      transition: background-size 0.25s ease-in;
+      transition: background-size 0.2s ease-in-out;
       &:hover {
         background-size: 95% 70%;
       }
