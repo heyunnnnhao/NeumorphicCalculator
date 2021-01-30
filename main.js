@@ -1,4 +1,18 @@
 const myName = document.getElementById('myname');
-const myInfo = document.getElementById('info');
+const myInfo = document.getElementById('contact');
 
-myName.onclick = () => myInfo.classList.toggle('info');
+myName.onclick = () => myInfo.classList.toggle('contact');
+
+const coll = document.getElementsByClassName("collapsible");
+
+for (let i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
