@@ -3,16 +3,10 @@ const myInfo = document.getElementById('contact');
 
 myName.onclick = () => myInfo.classList.toggle('contact');
 
-const coll = document.getElementsByClassName('collapsible');
-
 document.querySelectorAll('.collapsible').forEach((item) => {
-  item.addEventListener('click', (e) => {
-    var content = document.getElementById('content');
-    var style = content.style.display;
-    if (style === 'block') {
-      content.style.display = 'none';
-    } else {
-      content.style.display = 'block';
-    }
+  item.addEventListener('click', () => {
+    let content = document.getElementById('content');
+    let style = content.style.display;
+    content.style.display = style === 'block' ? 'none' : 'block';
   });
 });
