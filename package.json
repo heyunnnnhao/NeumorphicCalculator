@@ -1,0 +1,22 @@
+{
+  "name": "heyunnnnhao",
+  "version": "1.0.0",
+  "description": "![](t.png?raw=true)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyunnnnhao/heyunnnnhao.git"
+  },
+  "keywords": [
+    "myresume"
+  ],
+  "author": "Yunhao He",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heyunnnnhao/heyunnnnhao/issues"
+  },
+  "homepage": "https://github.com/heyunnnnhao/heyunnnnhao#readme"
+}
